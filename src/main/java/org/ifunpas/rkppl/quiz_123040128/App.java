@@ -13,5 +13,9 @@ public class App
         System.out.println("Nama : Muhamad Eka Pangestu");
         System.out.println("NRP : 123040128");
         System.out.println("Shift Praktikum : Senin, 11.00-13.00");
+        
+        Soal s = new Soal();
+        
+        System.out.println("Perkalian : " + s.perkalian(5, 9));
     }
 }
